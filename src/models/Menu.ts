@@ -11,3 +11,4 @@ const MenuSchema: Schema = new Schema({
 });
 
 export default mongoose.model<IMenu>('Menu', MenuSchema);
+// https://daokythanh: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git@github.com/eddydao/whichmealtoday-nodejs.git

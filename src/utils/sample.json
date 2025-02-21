@@ -1,0 +1,346 @@
+{
+    "dishes": {
+        "appetizer_1": {
+            "name": "Caesar Salad",
+            "ingredients": [
+                "Lettuce",
+                "Croutons",
+                "Parmesan",
+                "Caesar Dressing"
+            ],
+            "cuisine": "American",
+            "category": "appetizer"
+        },
+        "appetizer_2": {
+            "name": "Bruschetta",
+            "ingredients": [
+                "Tomato",
+                "Basil",
+                "Garlic",
+                "Olive Oil",
+                "Bread"
+            ],
+            "cuisine": "Italian",
+            "category": "appetizer"
+        },
+        "appetizer_3": {
+            "name": "Spring Rolls",
+            "ingredients": [
+                "Rice Paper",
+                "Shrimp",
+                "Vegetables",
+                "Dipping Sauce"
+            ],
+            "cuisine": "Vietnamese",
+            "category": "appetizer"
+        },
+        "appetizer_4": {
+            "name": "Hummus",
+            "ingredients": [
+                "Chickpeas",
+                "Tahini",
+                "Garlic",
+                "Lemon Juice"
+            ],
+            "cuisine": "Middle Eastern",
+            "category": "appetizer"
+        },
+        "appetizer_5": {
+            "name": "Guacamole",
+            "ingredients": [
+                "Avocado",
+                "Tomato",
+                "Onion",
+                "Lime",
+                "Cilantro"
+            ],
+            "cuisine": "Mexican",
+            "category": "appetizer"
+        },
+        "appetizer_6": {
+            "name": "French Onion Soup",
+            "ingredients": [
+                "Onion",
+                "Beef Broth",
+                "Cheese",
+                "Bread"
+            ],
+            "cuisine": "French",
+            "category": "appetizer"
+        },
+        "appetizer_7": {
+            "name": "Caprese Salad",
+            "ingredients": [
+                "Tomato",
+                "Mozzarella",
+                "Basil",
+                "Balsamic"
+            ],
+            "cuisine": "Italian",
+            "category": "appetizer"
+        },
+        "appetizer_8": {
+            "name": "Deviled Eggs",
+            "ingredients": [
+                "Eggs",
+                "Mayonnaise",
+                "Mustard",
+                "Paprika"
+            ],
+            "cuisine": "American",
+            "category": "appetizer"
+        },
+        "appetizer_9": {
+            "name": "Stuffed Mushrooms",
+            "ingredients": [
+                "Mushrooms",
+                "Garlic",
+                "Cheese",
+                "Bread Crumbs"
+            ],
+            "cuisine": "Italian",
+            "category": "appetizer"
+        },
+        "appetizer_10": {
+            "name": "Edamame",
+            "ingredients": [
+                "Soybeans",
+                "Salt"
+            ],
+            "cuisine": "Japanese",
+            "category": "appetizer"
+        },
+        "main_1": {
+            "name": "Grilled Chicken",
+            "ingredients": [
+                "Chicken",
+                "Olive Oil",
+                "Lemon",
+                "Garlic"
+            ],
+            "cuisine": "Mediterranean",
+            "category": "main"
+        },
+        "main_2": {
+            "name": "Beef Steak",
+            "ingredients": [
+                "Beef",
+                "Salt",
+                "Pepper"
+            ],
+            "cuisine": "American",
+            "category": "main"
+        },
+        "main_3": {
+            "name": "Salmon Teriyaki",
+            "ingredients": [
+                "Salmon",
+                "Soy Sauce",
+                "Ginger",
+                "Honey"
+            ],
+            "cuisine": "Japanese",
+            "category": "main"
+        },
+        "main_4": {
+            "name": "Pasta Carbonara",
+            "ingredients": [
+                "Pasta",
+                "Bacon",
+                "Egg",
+                "Parmesan"
+            ],
+            "cuisine": "Italian",
+            "category": "main"
+        },
+        "main_5": {
+            "name": "Vegetable Stir Fry",
+            "ingredients": [
+                "Broccoli",
+                "Carrot",
+                "Soy Sauce",
+                "Garlic"
+            ],
+            "cuisine": "Chinese",
+            "category": "main"
+        },
+        "main_6": {
+            "name": "Shrimp Scampi",
+            "ingredients": [
+                "Shrimp",
+                "Garlic",
+                "Butter",
+                "Lemon"
+            ],
+            "cuisine": "Italian",
+            "category": "main"
+        },
+        "main_7": {
+            "name": "Chicken Tikka Masala",
+            "ingredients": [
+                "Chicken",
+                "Tomato Sauce",
+                "Spices",
+                "Cream"
+            ],
+            "cuisine": "Indian",
+            "category": "main"
+        },
+        "main_8": {
+            "name": "Lamb Gyro",
+            "ingredients": [
+                "Lamb",
+                "Pita",
+                "Tzatziki",
+                "Onion"
+            ],
+            "cuisine": "Greek",
+            "category": "main"
+        },
+        "main_9": {
+            "name": "Beef Tacos",
+            "ingredients": [
+                "Tortilla",
+                "Beef",
+                "Cheese",
+                "Lettuce"
+            ],
+            "cuisine": "Mexican",
+            "category": "main"
+        },
+        "main_10": {
+            "name": "Eggplant Parmesan",
+            "ingredients": [
+                "Eggplant",
+                "Tomato Sauce",
+                "Cheese"
+            ],
+            "cuisine": "Italian",
+            "category": "main"
+        },
+        "main_11": {
+            "name": "Roast Duck",
+            "ingredients": [
+                "Duck",
+                "Soy Sauce",
+                "Garlic",
+                "Honey"
+            ],
+            "cuisine": "Chinese",
+            "category": "main"
+        },
+        "main_12": {
+            "name": "Lasagna",
+            "ingredients": [
+                "Pasta",
+                "Tomato Sauce",
+                "Beef",
+                "Cheese"
+            ],
+            "cuisine": "Italian",
+            "category": "main"
+        },
+        "dessert_1": {
+            "name": "Chocolate Cake",
+            "ingredients": [
+                "Flour",
+                "Cocoa Powder",
+                "Sugar"
+            ],
+            "cuisine": "French",
+            "category": "dessert"
+        },
+        "dessert_2": {
+            "name": "Tiramisu",
+            "ingredients": [
+                "Coffee",
+                "Mascarpone",
+                "Ladyfingers",
+                "Cocoa"
+            ],
+            "cuisine": "Italian",
+            "category": "dessert"
+        },
+        "dessert_3": {
+            "name": "Apple Pie",
+            "ingredients": [
+                "Apples",
+                "Flour",
+                "Cinnamon",
+                "Butter"
+            ],
+            "cuisine": "American",
+            "category": "dessert"
+        },
+        "dessert_4": {
+            "name": "Mango Sticky Rice",
+            "ingredients": [
+                "Mango",
+                "Coconut Milk",
+                "Sticky Rice"
+            ],
+            "cuisine": "Thai",
+            "category": "dessert"
+        },
+        "dessert_5": {
+            "name": "Churros",
+            "ingredients": [
+                "Flour",
+                "Sugar",
+                "Cinnamon"
+            ],
+            "cuisine": "Spanish",
+            "category": "dessert"
+        },
+        "dessert_6": {
+            "name": "Cheesecake",
+            "ingredients": [
+                "Cream Cheese",
+                "Sugar",
+                "Graham Cracker"
+            ],
+            "cuisine": "American",
+            "category": "dessert"
+        },
+        "dessert_7": {
+            "name": "Pavlova",
+            "ingredients": [
+                "Egg Whites",
+                "Sugar",
+                "Whipped Cream"
+            ],
+            "cuisine": "Australian",
+            "category": "dessert"
+        },
+        "dessert_8": {
+            "name": "Gelato",
+            "ingredients": [
+                "Milk",
+                "Sugar",
+                "Flavoring"
+            ],
+            "cuisine": "Italian",
+            "category": "dessert"
+        },
+        "dessert_9": {
+            "name": "Baklava",
+            "ingredients": [
+                "Phyllo Dough",
+                "Nuts",
+                "Honey"
+            ],
+            "cuisine": "Middle Eastern",
+            "category": "dessert"
+        },
+        "dessert_10": {
+            "name": "Banoffee Pie",
+            "ingredients": [
+                "Banana",
+                "Caramel",
+                "Whipped Cream"
+            ],
+            "cuisine": "British",
+            "category": "dessert"
+        }
+    }
+}
