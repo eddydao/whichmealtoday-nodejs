@@ -1,15 +1,39 @@
-import mongoose, { Schema, Document } from 'mongoose';
+import db from '../config/firebase';
 
-interface IDish extends Document {
+export type DishCategory = 'appetizer' | 'main' | 'dessert';
+
+export interface Dish {
+    id?: string;
     name: string;
     ingredients: string[];
-    recipes: mongoose.Types.ObjectId[];
+    cuisine: string;
+    category: DishCategory;
 }
 
-const DishSchema: Schema = new Schema({
-    name: { type: String, required: true },
-    ingredients: [{ type: String, required: true }],
-    recipes: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Recipe' }],
-});
+// Firestore Collection Reference
+const collectionRef = db.collection('dishes');
 
-export default mongoose.model < IDish > ('Dish', DishSchema);
+export const DishModel = {
+    async create(dish: Dish): Promise<string> {
+        const docRef = await collectionRef.add(dish);
+        return docRef.id;
+    },
+
+    async getAll(): Promise<Dish[]> {
+        const snapshot = await collectionRef.get();
+        return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() } as Dish));
+    },
+
+    async getById(id: string): Promise<Dish | null> {
+        const doc = await collectionRef.doc(id).get();
+        return doc.exists ? ({ id: doc.id, ...doc.data() } as Dish) : null;
+    },
+
+    async update(id: string, data: Partial<Dish>): Promise<void> {
+        await collectionRef.doc(id).update(data);
+    },
+
+    async delete(id: string): Promise<void> {
+        await collectionRef.doc(id).delete();
+    }
+};
